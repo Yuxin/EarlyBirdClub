@@ -1,0 +1,354 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4C941172158B3C57001BA3AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C941171158B3C57001BA3AF /* UIKit.framework */; };
+		4C941174158B3C57001BA3AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C941173158B3C57001BA3AF /* Foundation.framework */; };
+		4C941176158B3C57001BA3AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C941175158B3C57001BA3AF /* CoreGraphics.framework */; };
+		4C94117C158B3C57001BA3AF /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4C94117A158B3C57001BA3AF /* InfoPlist.strings */; };
+		4C94117E158B3C57001BA3AF /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C94117D158B3C57001BA3AF /* main.m */; };
+		4C941182158B3C57001BA3AF /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C941181158B3C57001BA3AF /* AppDelegate.m */; };
+		4C941185158B3C57001BA3AF /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C941184158B3C57001BA3AF /* RootViewController.m */; };
+		4C941190158B3C86001BA3AF /* MyPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C94118F158B3C86001BA3AF /* MyPlanViewController.m */; };
+		4C941199158B3DA8001BA3AF /* FriendsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C941197158B3DA8001BA3AF /* FriendsViewController.m */; };
+		4C94119A158B3DA8001BA3AF /* FriendsViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C941198158B3DA8001BA3AF /* FriendsViewController.xib */; };
+		4C9411A0158B3FAD001BA3AF /* AppDelegate.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C94119F158B3FAD001BA3AF /* AppDelegate.xib */; };
+		4C9411A2158B4AEE001BA3AF /* MyPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411A1158B4AEE001BA3AF /* MyPlanViewController.xib */; };
+		4C9411A8158B4C40001BA3AF /* head-3.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411A5158B4C40001BA3AF /* head-3.png */; };
+		4C9411A9158B4C40001BA3AF /* head-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411A6158B4C40001BA3AF /* head-2.png */; };
+		4C9411AA158B4C40001BA3AF /* head-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411A7158B4C40001BA3AF /* head-1.png */; };
+		4C9411AD158B4E75001BA3AF /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411AC158B4E75001BA3AF /* coins.png */; };
+		4C9411B0158B53E7001BA3AF /* MyCurrentPlanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9411AF158B53E7001BA3AF /* MyCurrentPlanCell.m */; };
+		4C9411B2158B5405001BA3AF /* MyCurrentPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411B1158B5405001BA3AF /* MyCurrentPlanCell.xib */; };
+		4C9411B9158B5788001BA3AF /* CreateMyPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9411B7158B5787001BA3AF /* CreateMyPlanViewController.m */; };
+		4C9411BA158B5788001BA3AF /* CreateMyPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411B8158B5787001BA3AF /* CreateMyPlanViewController.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4C94116D158B3C57001BA3AF /* eralyBirdClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eralyBirdClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4C941171158B3C57001BA3AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4C941173158B3C57001BA3AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4C941175158B3C57001BA3AF /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4C941179158B3C57001BA3AF /* eralyBirdClub-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "eralyBirdClub-Info.plist"; sourceTree = "<group>"; };
+		4C94117B158B3C57001BA3AF /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4C94117D158B3C57001BA3AF /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4C94117F158B3C57001BA3AF /* eralyBirdClub-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "eralyBirdClub-Prefix.pch"; sourceTree = "<group>"; };
+		4C941180158B3C57001BA3AF /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4C941181158B3C57001BA3AF /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4C941183158B3C57001BA3AF /* RootViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		4C941184158B3C57001BA3AF /* RootViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		4C94118E158B3C86001BA3AF /* MyPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyPlanViewController.h; sourceTree = "<group>"; };
+		4C94118F158B3C86001BA3AF /* MyPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyPlanViewController.m; sourceTree = "<group>"; };
+		4C941196158B3DA8001BA3AF /* FriendsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendsViewController.h; sourceTree = "<group>"; };
+		4C941197158B3DA8001BA3AF /* FriendsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendsViewController.m; sourceTree = "<group>"; };
+		4C941198158B3DA8001BA3AF /* FriendsViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendsViewController.xib; sourceTree = "<group>"; };
+		4C94119F158B3FAD001BA3AF /* AppDelegate.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = AppDelegate.xib; path = ../AppDelegate.xib; sourceTree = "<group>"; };
+		4C9411A1158B4AEE001BA3AF /* MyPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyPlanViewController.xib; sourceTree = "<group>"; };
+		4C9411A5158B4C40001BA3AF /* head-3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head-3.png"; sourceTree = "<group>"; };
+		4C9411A6158B4C40001BA3AF /* head-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head-2.png"; sourceTree = "<group>"; };
+		4C9411A7158B4C40001BA3AF /* head-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head-1.png"; sourceTree = "<group>"; };
+		4C9411AC158B4E75001BA3AF /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
+		4C9411AE158B53E7001BA3AF /* MyCurrentPlanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCurrentPlanCell.h; sourceTree = "<group>"; };
+		4C9411AF158B53E7001BA3AF /* MyCurrentPlanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCurrentPlanCell.m; sourceTree = "<group>"; };
+		4C9411B1158B5405001BA3AF /* MyCurrentPlanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCurrentPlanCell.xib; sourceTree = "<group>"; };
+		4C9411B6158B5787001BA3AF /* CreateMyPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateMyPlanViewController.h; sourceTree = "<group>"; };
+		4C9411B7158B5787001BA3AF /* CreateMyPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateMyPlanViewController.m; sourceTree = "<group>"; };
+		4C9411B8158B5787001BA3AF /* CreateMyPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateMyPlanViewController.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4C94116A158B3C57001BA3AF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C941172158B3C57001BA3AF /* UIKit.framework in Frameworks */,
+				4C941174158B3C57001BA3AF /* Foundation.framework in Frameworks */,
+				4C941176158B3C57001BA3AF /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4C941162158B3C56001BA3AF = {
+			isa = PBXGroup;
+			children = (
+				4C941177158B3C57001BA3AF /* eralyBirdClub */,
+				4C941170158B3C57001BA3AF /* Frameworks */,
+				4C94116E158B3C57001BA3AF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4C94116E158B3C57001BA3AF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4C94116D158B3C57001BA3AF /* eralyBirdClub.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4C941170158B3C57001BA3AF /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4C941171158B3C57001BA3AF /* UIKit.framework */,
+				4C941173158B3C57001BA3AF /* Foundation.framework */,
+				4C941175158B3C57001BA3AF /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4C941177158B3C57001BA3AF /* eralyBirdClub */ = {
+			isa = PBXGroup;
+			children = (
+				4C941180158B3C57001BA3AF /* AppDelegate.h */,
+				4C941181158B3C57001BA3AF /* AppDelegate.m */,
+				4C94119F158B3FAD001BA3AF /* AppDelegate.xib */,
+				4C941183158B3C57001BA3AF /* RootViewController.h */,
+				4C941184158B3C57001BA3AF /* RootViewController.m */,
+				4C9411A3158B4B7B001BA3AF /* MyPlan */,
+				4C9411A4158B4B81001BA3AF /* FriendsPlan */,
+				4C9411AB158B4C47001BA3AF /* Images */,
+				4C941178158B3C57001BA3AF /* Supporting Files */,
+			);
+			path = eralyBirdClub;
+			sourceTree = "<group>";
+		};
+		4C941178158B3C57001BA3AF /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4C941179158B3C57001BA3AF /* eralyBirdClub-Info.plist */,
+				4C94117A158B3C57001BA3AF /* InfoPlist.strings */,
+				4C94117D158B3C57001BA3AF /* main.m */,
+				4C94117F158B3C57001BA3AF /* eralyBirdClub-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4C9411A3158B4B7B001BA3AF /* MyPlan */ = {
+			isa = PBXGroup;
+			children = (
+				4C94118E158B3C86001BA3AF /* MyPlanViewController.h */,
+				4C94118F158B3C86001BA3AF /* MyPlanViewController.m */,
+				4C9411A1158B4AEE001BA3AF /* MyPlanViewController.xib */,
+				4C9411AE158B53E7001BA3AF /* MyCurrentPlanCell.h */,
+				4C9411AF158B53E7001BA3AF /* MyCurrentPlanCell.m */,
+				4C9411B1158B5405001BA3AF /* MyCurrentPlanCell.xib */,
+				4C9411B6158B5787001BA3AF /* CreateMyPlanViewController.h */,
+				4C9411B7158B5787001BA3AF /* CreateMyPlanViewController.m */,
+				4C9411B8158B5787001BA3AF /* CreateMyPlanViewController.xib */,
+			);
+			name = MyPlan;
+			sourceTree = "<group>";
+		};
+		4C9411A4158B4B81001BA3AF /* FriendsPlan */ = {
+			isa = PBXGroup;
+			children = (
+				4C941196158B3DA8001BA3AF /* FriendsViewController.h */,
+				4C941197158B3DA8001BA3AF /* FriendsViewController.m */,
+				4C941198158B3DA8001BA3AF /* FriendsViewController.xib */,
+			);
+			name = FriendsPlan;
+			sourceTree = "<group>";
+		};
+		4C9411AB158B4C47001BA3AF /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				4C9411AC158B4E75001BA3AF /* coins.png */,
+				4C9411A5158B4C40001BA3AF /* head-3.png */,
+				4C9411A6158B4C40001BA3AF /* head-2.png */,
+				4C9411A7158B4C40001BA3AF /* head-1.png */,
+			);
+			name = Images;
+			path = ..;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4C94116C158B3C57001BA3AF /* eralyBirdClub */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4C94118B158B3C57001BA3AF /* Build configuration list for PBXNativeTarget "eralyBirdClub" */;
+			buildPhases = (
+				4C941169158B3C57001BA3AF /* Sources */,
+				4C94116A158B3C57001BA3AF /* Frameworks */,
+				4C94116B158B3C57001BA3AF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = eralyBirdClub;
+			productName = eralyBirdClub;
+			productReference = 4C94116D158B3C57001BA3AF /* eralyBirdClub.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4C941164158B3C56001BA3AF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0430;
+			};
+			buildConfigurationList = 4C941167158B3C56001BA3AF /* Build configuration list for PBXProject "eralyBirdClub" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 4C941162158B3C56001BA3AF;
+			productRefGroup = 4C94116E158B3C57001BA3AF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4C94116C158B3C57001BA3AF /* eralyBirdClub */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4C94116B158B3C57001BA3AF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C94117C158B3C57001BA3AF /* InfoPlist.strings in Resources */,
+				4C94119A158B3DA8001BA3AF /* FriendsViewController.xib in Resources */,
+				4C9411A0158B3FAD001BA3AF /* AppDelegate.xib in Resources */,
+				4C9411A2158B4AEE001BA3AF /* MyPlanViewController.xib in Resources */,
+				4C9411A8158B4C40001BA3AF /* head-3.png in Resources */,
+				4C9411A9158B4C40001BA3AF /* head-2.png in Resources */,
+				4C9411AA158B4C40001BA3AF /* head-1.png in Resources */,
+				4C9411AD158B4E75001BA3AF /* coins.png in Resources */,
+				4C9411B2158B5405001BA3AF /* MyCurrentPlanCell.xib in Resources */,
+				4C9411BA158B5788001BA3AF /* CreateMyPlanViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4C941169158B3C57001BA3AF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C94117E158B3C57001BA3AF /* main.m in Sources */,
+				4C941182158B3C57001BA3AF /* AppDelegate.m in Sources */,
+				4C941185158B3C57001BA3AF /* RootViewController.m in Sources */,
+				4C941190158B3C86001BA3AF /* MyPlanViewController.m in Sources */,
+				4C941199158B3DA8001BA3AF /* FriendsViewController.m in Sources */,
+				4C9411B0158B53E7001BA3AF /* MyCurrentPlanCell.m in Sources */,
+				4C9411B9158B5788001BA3AF /* CreateMyPlanViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4C94117A158B3C57001BA3AF /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4C94117B158B3C57001BA3AF /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4C941189158B3C57001BA3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4C94118A158B3C57001BA3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4C94118C158B3C57001BA3AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eralyBirdClub/eralyBirdClub-Prefix.pch";
+				INFOPLIST_FILE = "eralyBirdClub/eralyBirdClub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4C94118D158B3C57001BA3AF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "eralyBirdClub/eralyBirdClub-Prefix.pch";
+				INFOPLIST_FILE = "eralyBirdClub/eralyBirdClub-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4C941167158B3C56001BA3AF /* Build configuration list for PBXProject "eralyBirdClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C941189158B3C57001BA3AF /* Debug */,
+				4C94118A158B3C57001BA3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4C94118B158B3C57001BA3AF /* Build configuration list for PBXNativeTarget "eralyBirdClub" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C94118C158B3C57001BA3AF /* Debug */,
+				4C94118D158B3C57001BA3AF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4C941164158B3C56001BA3AF /* Project object */;
+}
