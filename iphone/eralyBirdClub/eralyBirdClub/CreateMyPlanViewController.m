@@ -7,12 +7,14 @@
 //
 
 #import "CreateMyPlanViewController.h"
+#import "ChooseFriendsCell.h"
 
 @interface CreateMyPlanViewController ()
-
+@property (strong, nonatomic) IBOutlet UIBarButtonItem *createButton;
 @end
 
 @implementation CreateMyPlanViewController
+@synthesize createButton;
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -32,11 +34,19 @@
  
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
-    self.title = @"创建明天的起床计划！";
+}
+
+- (void)viewWillAppear:(BOOL)animated
+{
+    [super viewWillAppear:animated];
+    self.title = @"创建早起计划！";
+    self.navigationItem.rightBarButtonItem = self.createButton;
+    [self.createButton setEnabled:NO];
 }
 
 - (void)viewDidUnload
 {
+    [self setCreateButton:nil];
     [super viewDidUnload];
     // Release any retained subviews of the main view.
     // e.g. self.myOutlet = nil;
@@ -48,6 +58,15 @@
 }
 
 #pragma mark - Table view data source
+
+- (CGFloat)tableView:(UITableView *)tableView heightForRowAtIndexPath:(NSIndexPath *)indexPath
+{
+    if (indexPath.row == 3) {
+       //选择朋友一行，高度特殊
+        return 100.0f;
+    }
+    return 44.0f;
+}
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section
 {
@@ -95,9 +114,7 @@
         cell = [tableView dequeueReusableCellWithIdentifier:ChooseFriendsCellIdentifier];
         if (cell == nil) {
             // 时间选择
-            cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:ChooseFriendsCellIdentifier];
-            cell.textLabel.text = @"选择我的起床监察员：";
-            cell.accessoryType = UITableViewCellAccessoryNone;
+            cell = [[[NSBundle mainBundle] loadNibNamed:@"ChooseFriendsCell" owner:self options:nil] objectAtIndex:0];
         }
     }
     return cell;

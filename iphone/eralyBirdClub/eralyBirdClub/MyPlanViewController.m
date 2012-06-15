@@ -18,7 +18,7 @@
 @synthesize planHistoryTableView;
 
 - (IBAction)createNewPlan:(id)sender {
-    CreateMyPlanViewController *createPlanViewController = [[CreateMyPlanViewController alloc] initWithStyle:UITableViewStyleGrouped];
+    CreateMyPlanViewController *createPlanViewController = [[CreateMyPlanViewController alloc] initWithNibName:@"CreateMyPlanViewController" bundle:nil];
     [self.navigationController pushViewController:createPlanViewController animated:YES];
 }
 
@@ -34,6 +34,7 @@
     self.title = @"我的早起计划";
     
     [self.planHistoryTableView reloadData];
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg.png"]];
 }
 
 - (void)viewDidUnload
