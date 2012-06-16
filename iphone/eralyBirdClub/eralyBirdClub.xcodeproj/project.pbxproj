@@ -9,9 +9,11 @@
 /* Begin PBXBuildFile section */
 		4C346B08158B67000058BB5C /* defalt_head.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C346B06158B67000058BB5C /* defalt_head.png */; };
 		4C346B09158B67000058BB5C /* default_head@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C346B07158B67000058BB5C /* default_head@2x.png */; };
-		4C346B10158B6A320058BB5C /* btn-create-plan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C346B0F158B6A320058BB5C /* btn-create-plan.png */; };
 		4C346B13158B6A860058BB5C /* bg@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C346B11158B6A860058BB5C /* bg@2x.png */; };
 		4C346B14158B6A860058BB5C /* bg.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C346B12158B6A860058BB5C /* bg.png */; };
+		4C346B1B158C7D070058BB5C /* CurrentPlanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C346B1A158C7D070058BB5C /* CurrentPlanCell.m */; };
+		4C346B1D158C7D670058BB5C /* CurrentPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C346B1C158C7D670058BB5C /* CurrentPlanCell.xib */; };
+		4C5D41FD158D20D400C885DD /* btn-create-plan.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C5D41FC158D20D400C885DD /* btn-create-plan.png */; };
 		4C941172158B3C57001BA3AF /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C941171158B3C57001BA3AF /* UIKit.framework */; };
 		4C941174158B3C57001BA3AF /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C941173158B3C57001BA3AF /* Foundation.framework */; };
 		4C941176158B3C57001BA3AF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4C941175158B3C57001BA3AF /* CoreGraphics.framework */; };
@@ -28,8 +30,8 @@
 		4C9411A9158B4C40001BA3AF /* head-2.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411A6158B4C40001BA3AF /* head-2.png */; };
 		4C9411AA158B4C40001BA3AF /* head-1.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411A7158B4C40001BA3AF /* head-1.png */; };
 		4C9411AD158B4E75001BA3AF /* coins.png in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411AC158B4E75001BA3AF /* coins.png */; };
-		4C9411B0158B53E7001BA3AF /* MyCurrentPlanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9411AF158B53E7001BA3AF /* MyCurrentPlanCell.m */; };
-		4C9411B2158B5405001BA3AF /* MyCurrentPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411B1158B5405001BA3AF /* MyCurrentPlanCell.xib */; };
+		4C9411B0158B53E7001BA3AF /* CreateCurrentPlanCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9411AF158B53E7001BA3AF /* CreateCurrentPlanCell.m */; };
+		4C9411B2158B5405001BA3AF /* CreateCurrentPlanCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411B1158B5405001BA3AF /* CreateCurrentPlanCell.xib */; };
 		4C9411B9158B5788001BA3AF /* CreateMyPlanViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9411B7158B5787001BA3AF /* CreateMyPlanViewController.m */; };
 		4C9411BA158B5788001BA3AF /* CreateMyPlanViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4C9411B8158B5787001BA3AF /* CreateMyPlanViewController.xib */; };
 		4C9411BD158B5F09001BA3AF /* ChooseFriendsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4C9411BC158B5F09001BA3AF /* ChooseFriendsCell.m */; };
@@ -39,9 +41,12 @@
 /* Begin PBXFileReference section */
 		4C346B06158B67000058BB5C /* defalt_head.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = defalt_head.png; sourceTree = "<group>"; };
 		4C346B07158B67000058BB5C /* default_head@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "default_head@2x.png"; sourceTree = "<group>"; };
-		4C346B0F158B6A320058BB5C /* btn-create-plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-create-plan.png"; sourceTree = "<group>"; };
 		4C346B11158B6A860058BB5C /* bg@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "bg@2x.png"; sourceTree = "<group>"; };
 		4C346B12158B6A860058BB5C /* bg.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = bg.png; sourceTree = "<group>"; };
+		4C346B19158C7D070058BB5C /* CurrentPlanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CurrentPlanCell.h; sourceTree = "<group>"; };
+		4C346B1A158C7D070058BB5C /* CurrentPlanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CurrentPlanCell.m; sourceTree = "<group>"; };
+		4C346B1C158C7D670058BB5C /* CurrentPlanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CurrentPlanCell.xib; sourceTree = "<group>"; };
+		4C5D41FC158D20D400C885DD /* btn-create-plan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "btn-create-plan.png"; sourceTree = "<group>"; };
 		4C94116D158B3C57001BA3AF /* eralyBirdClub.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = eralyBirdClub.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4C941171158B3C57001BA3AF /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		4C941173158B3C57001BA3AF /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -65,9 +70,9 @@
 		4C9411A6158B4C40001BA3AF /* head-2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head-2.png"; sourceTree = "<group>"; };
 		4C9411A7158B4C40001BA3AF /* head-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "head-1.png"; sourceTree = "<group>"; };
 		4C9411AC158B4E75001BA3AF /* coins.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = coins.png; sourceTree = "<group>"; };
-		4C9411AE158B53E7001BA3AF /* MyCurrentPlanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCurrentPlanCell.h; sourceTree = "<group>"; };
-		4C9411AF158B53E7001BA3AF /* MyCurrentPlanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCurrentPlanCell.m; sourceTree = "<group>"; };
-		4C9411B1158B5405001BA3AF /* MyCurrentPlanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MyCurrentPlanCell.xib; sourceTree = "<group>"; };
+		4C9411AE158B53E7001BA3AF /* CreateCurrentPlanCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateCurrentPlanCell.h; sourceTree = "<group>"; };
+		4C9411AF158B53E7001BA3AF /* CreateCurrentPlanCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateCurrentPlanCell.m; sourceTree = "<group>"; };
+		4C9411B1158B5405001BA3AF /* CreateCurrentPlanCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateCurrentPlanCell.xib; sourceTree = "<group>"; };
 		4C9411B6158B5787001BA3AF /* CreateMyPlanViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateMyPlanViewController.h; sourceTree = "<group>"; };
 		4C9411B7158B5787001BA3AF /* CreateMyPlanViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateMyPlanViewController.m; sourceTree = "<group>"; };
 		4C9411B8158B5787001BA3AF /* CreateMyPlanViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CreateMyPlanViewController.xib; sourceTree = "<group>"; };
@@ -150,9 +155,12 @@
 				4C94118E158B3C86001BA3AF /* MyPlanViewController.h */,
 				4C94118F158B3C86001BA3AF /* MyPlanViewController.m */,
 				4C9411A1158B4AEE001BA3AF /* MyPlanViewController.xib */,
-				4C9411AE158B53E7001BA3AF /* MyCurrentPlanCell.h */,
-				4C9411AF158B53E7001BA3AF /* MyCurrentPlanCell.m */,
-				4C9411B1158B5405001BA3AF /* MyCurrentPlanCell.xib */,
+				4C9411AE158B53E7001BA3AF /* CreateCurrentPlanCell.h */,
+				4C9411AF158B53E7001BA3AF /* CreateCurrentPlanCell.m */,
+				4C9411B1158B5405001BA3AF /* CreateCurrentPlanCell.xib */,
+				4C346B19158C7D070058BB5C /* CurrentPlanCell.h */,
+				4C346B1A158C7D070058BB5C /* CurrentPlanCell.m */,
+				4C346B1C158C7D670058BB5C /* CurrentPlanCell.xib */,
 				4C9411B6158B5787001BA3AF /* CreateMyPlanViewController.h */,
 				4C9411B7158B5787001BA3AF /* CreateMyPlanViewController.m */,
 				4C9411B8158B5787001BA3AF /* CreateMyPlanViewController.xib */,
@@ -176,9 +184,9 @@
 		4C9411AB158B4C47001BA3AF /* Images */ = {
 			isa = PBXGroup;
 			children = (
+				4C5D41FC158D20D400C885DD /* btn-create-plan.png */,
 				4C346B11158B6A860058BB5C /* bg@2x.png */,
 				4C346B12158B6A860058BB5C /* bg.png */,
-				4C346B0F158B6A320058BB5C /* btn-create-plan.png */,
 				4C346B06158B67000058BB5C /* defalt_head.png */,
 				4C346B07158B67000058BB5C /* default_head@2x.png */,
 				4C9411AC158B4E75001BA3AF /* coins.png */,
@@ -248,14 +256,15 @@
 				4C9411A9158B4C40001BA3AF /* head-2.png in Resources */,
 				4C9411AA158B4C40001BA3AF /* head-1.png in Resources */,
 				4C9411AD158B4E75001BA3AF /* coins.png in Resources */,
-				4C9411B2158B5405001BA3AF /* MyCurrentPlanCell.xib in Resources */,
+				4C9411B2158B5405001BA3AF /* CreateCurrentPlanCell.xib in Resources */,
 				4C9411BA158B5788001BA3AF /* CreateMyPlanViewController.xib in Resources */,
 				4C9411BF158B5F21001BA3AF /* ChooseFriendsCell.xib in Resources */,
 				4C346B08158B67000058BB5C /* defalt_head.png in Resources */,
 				4C346B09158B67000058BB5C /* default_head@2x.png in Resources */,
-				4C346B10158B6A320058BB5C /* btn-create-plan.png in Resources */,
 				4C346B13158B6A860058BB5C /* bg@2x.png in Resources */,
 				4C346B14158B6A860058BB5C /* bg.png in Resources */,
+				4C346B1D158C7D670058BB5C /* CurrentPlanCell.xib in Resources */,
+				4C5D41FD158D20D400C885DD /* btn-create-plan.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,9 +280,10 @@
 				4C941185158B3C57001BA3AF /* RootViewController.m in Sources */,
 				4C941190158B3C86001BA3AF /* MyPlanViewController.m in Sources */,
 				4C941199158B3DA8001BA3AF /* FriendsViewController.m in Sources */,
-				4C9411B0158B53E7001BA3AF /* MyCurrentPlanCell.m in Sources */,
+				4C9411B0158B53E7001BA3AF /* CreateCurrentPlanCell.m in Sources */,
 				4C9411B9158B5788001BA3AF /* CreateMyPlanViewController.m in Sources */,
 				4C9411BD158B5F09001BA3AF /* ChooseFriendsCell.m in Sources */,
+				4C346B1B158C7D070058BB5C /* CurrentPlanCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

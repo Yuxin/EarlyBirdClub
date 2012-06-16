@@ -27,7 +27,8 @@
 {
     [super viewDidLoad];
     // Do any additional setup after loading the view from its nib.
-    self.title = @"朋友们的早起计划";
+    self.title = @"朋友们的早安计划";
+    self.view.backgroundColor = [UIColor colorWithPatternImage:[UIImage imageNamed:@"bg.png"]];
 }
 
 - (void)viewDidUnload

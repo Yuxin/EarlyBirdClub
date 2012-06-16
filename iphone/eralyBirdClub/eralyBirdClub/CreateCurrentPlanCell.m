@@ -1,14 +1,14 @@
 //
-//  MyCurrentPlanCell.m
+//  CreateCurrentPlanCell.m
 //  eralyBirdClub
 //
 //  Created by YUXIN YANG on 12-6-15.
 //  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
-#import "MyCurrentPlanCell.h"
+#import "CreateCurrentPlanCell.h"
 
-@implementation MyCurrentPlanCell
+@implementation CreateCurrentPlanCell
 
 - (id)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString *)reuseIdentifier
 {

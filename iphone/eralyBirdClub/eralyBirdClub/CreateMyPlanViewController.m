@@ -11,10 +11,18 @@
 
 @interface CreateMyPlanViewController ()
 @property (strong, nonatomic) IBOutlet UIBarButtonItem *createButton;
+- (void)refreshDoneButtonStatus;
 @end
 
 @implementation CreateMyPlanViewController
 @synthesize createButton;
+
+- (void)refreshDoneButtonStatus 
+{
+    // todo: 判断日期，时间，下注数量，选择好友是否正常，正常则enable否则disable
+    BOOL canCreateNewPlan = YES;
+    [self.createButton setEnabled:canCreateNewPlan];
+}
 
 - (id)initWithStyle:(UITableViewStyle)style
 {
@@ -39,9 +47,9 @@
 - (void)viewWillAppear:(BOOL)animated
 {
     [super viewWillAppear:animated];
-    self.title = @"创建早起计划！";
+    self.title = @"创建早安计划！";
     self.navigationItem.rightBarButtonItem = self.createButton;
-    [self.createButton setEnabled:NO];
+    [self refreshDoneButtonStatus];
 }
 
 - (void)viewDidUnload
@@ -88,7 +96,7 @@
         if (cell == nil) {
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:ChooseDateCellIdentifier];
             cell.textLabel.text = @"日期";
-            cell.detailTextLabel.text = @"2012-6-12 星期二";
+            cell.detailTextLabel.text = @"2012-6-18 星期日";
             cell.accessoryType = UITableViewCellAccessoryNone;
         }
     } else if (indexPath.row == 1) {
@@ -107,7 +115,7 @@
             cell = [[UITableViewCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:ChooseBetCellIdentifier];
             cell.textLabel.text = @"下注";
             // 要成为高帅富白富美，还就得下血本，玩儿真的啊！
-            cell.detailTextLabel.text = @"10个金币";
+            cell.detailTextLabel.text = @"10";
             cell.accessoryType = UITableViewCellAccessoryDetailDisclosureButton;
         }
     } else if (indexPath.row == 3){
@@ -170,7 +178,14 @@
 {
     if (indexPath.row == 1) {
         // 修改时间
+        // todo: 更改起床时间
+        // 只提供早上4:00 - 9:00期间选择，默认6:00
         NSLog(@"Edit TIME");
+        
+    } else if (indexPath.row == 2){
+        // 修改赌注
+        // todo: 做一个slidebar，最少选择10，最多为当前上限
+        NSLog(@"Edit Bet");
     }
 }
 

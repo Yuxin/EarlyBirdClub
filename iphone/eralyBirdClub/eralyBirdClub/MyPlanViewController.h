@@ -9,4 +9,6 @@
 #import <UIKit/UIKit.h>
 
 @interface MyPlanViewController : UIViewController
+@property (nonatomic, strong) NSMutableArray *historyItemArray;
+@property (nonatomic) BOOL hasCurrentPlan;
 @end

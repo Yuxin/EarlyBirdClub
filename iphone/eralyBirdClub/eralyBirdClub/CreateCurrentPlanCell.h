@@ -1,5 +1,5 @@
 //
-//  MyCurrentPlanCell.h
+//  CreateCurrentPlanCell.h
 //  eralyBirdClub
 //
 //  Created by YUXIN YANG on 12-6-15.
@@ -8,6 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface MyCurrentPlanCell : UITableViewCell
+@interface CreateCurrentPlanCell : UITableViewCell
 
 @end
